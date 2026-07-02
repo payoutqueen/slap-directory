@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#0B0B0F" />
+
+  <title>payID pokies sites — Updated referral directory</title>
+  <meta name="description" content="A premium, fast directory of payID pokies sites. Updated daily/weekly with the latest site drops, share bonuses, and scam alerts." />
+
+  <meta property="og:title" content="payID pokies sites — Updated referral directory" />
+  <meta property="og:description" content="Updated daily/weekly with the latest site drops, share bonuses, and scam alerts." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://YOUR_DOMAIN_HERE/" />
+  <meta property="og:image" content="https://YOUR_DOMAIN_HERE/og.jpg" />
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "name":"payID pokies sites",
+    "url":"https://YOUR_DOMAIN_HERE/",
+    "description":"A premium, fast directory of payID pokies sites updated daily/weekly.",
+    "potentialAction":{
+      "@type":"SearchAction",
+      "target":"https://YOUR_DOMAIN_HERE/?q={search_term_string}",
+      "query-input":"required name=search_term_string"
+    }
+  }
+  </script>
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#offers">Skip to offers</a>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <span class="brand-name">payID pokies</span>
+      </div>
+
+      <nav class="nav-actions" aria-label="Primary">
+        <a class="nav-link" href="#offers">Offers</a>
+        <a class="nav-link" href="#share-bonus">Share Bonus $40+</a>
+        <a class="nav-link" href="#responsible">Responsible</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a class="btn btn-ghost" href="#offers">Browse</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-left">
+          <div class="hero-logo" aria-hidden="true"></div>
+          <h1>payID pokies sites</h1>
+          <p class="subhead">Updated daily/weekly with the latest site drops. Search, filter, and compare offers instantly.</p>
+
+          <div class="hero-buttons">
+            <a class="btn btn-primary" href="#offers">View featured offers</a>
+            <a class="btn btn-secondary" href="#responsible">Read responsible gambling</a>
+          </div>
+
+          <div class="search-wrap" role="search">
+            <label class="sr-only" for="search">Search offers</label>
+            <input id="search" type="search" placeholder="Search by site name, notes, partnership group…" autocomplete="off" />
+            <div class="search-hint" id="resultCount" aria-live="polite"></div>
+          </div>
+
+          <div class="filters" aria-label="Filters">
+            <button class="chip is-active" data-filter="all" type="button">All</button>
+            <button class="chip" data-filter="new" type="button">New</button>
+            <button class="chip" data-filter="partnership" type="button">Partnership Group</button>
+            <button class="chip" data-filter="bonus30" type="button">No Deposit +$30</button>
+            <button class="chip" data-filter="scam" type="button">Scam</button>
+          </div>
+        </div>
+
+        <aside class="hero-right" aria-label="Highlights">
+          <div class="stat-card">
+            <div class="stat-title">Fast directory</div>
+            <div class="stat-value">Live search + filters</div>
+            <div class="stat-note">Optimized for mobile + desktop</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-title">Maintained in Notion</div>
+            <div class="stat-value">No code edits</div>
+            <div class="stat-note">Add/remove rows to update offers</div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="offers" aria-label="Featured Offers">
+      <div class="section-head">
+        <h2>Featured Offers</h2>
+        <p>Premium picks with clear status and scam alerts.</p>
+      </div>
+
+      <div class="grid" id="grid" aria-live="polite"></div>
+
+      <div class="empty" id="emptyState" hidden>
+        <h3>No matches</h3>
+        <p>Try a different search or clear filters.</p>
+      </div>
+    </section>
+
+    <section class="section" id="share-bonus" aria-label="Share Bonus $40+">
+      <div class="section-head">
+        <h2>Share Bonus $40+</h2>
+        <p>High-value share bonus offers appear here when noted in Notion.</p>
+      </div>
+      <div class="callout"><strong>Tip:</strong> Put “$40+” (or “Share Bonus 40”) in the Notes field to surface offers here automatically.</div>
+      <div class="grid" id="grid40"></div>
+    </section>
+
+    <section class="section" id="responsible" aria-label="Responsible gambling notice">
+      <div class="section-head">
+        <h2>Responsible gambling</h2>
+        <p>Please gamble responsibly. This directory is informational and may contain affiliate links.</p>
+      </div>
+
+      <div class="rg">
+        <ul>
+          <li>Set a budget and stick to it.</li>
+          <li>Never chase losses.</li>
+          <li>Take breaks and keep gambling balanced.</li>
+          <li>If gambling is causing harm, seek support in your region.</li>
+        </ul>
+        <p class="small">If you believe a site is unsafe, avoid links marked “Yes” or “Caution”.</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="small">© <span id="year"></span> payID pokies sites. Updated from Notion.</p>
+    </footer>
+  </main>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
